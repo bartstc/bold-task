@@ -1,3 +1,44 @@
 .contact {
-  height: 30rem;
+  padding: 9rem 0;
+
+  & .container {
+    max-width: 111rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & .content {
+    flex: 1;
+
+    & > p {
+      max-width: 44rem;
+      margin-top: 4rem;
+    }
+  }
+
+  & .form {
+    flex: 1;
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+    }
+
+    .submit-button {
+      background: #ed4c5c;
+      border: 1.5px solid #ed4c5c;
+      border-radius: 6px;
+      color: white;
+      padding: 16px 32px;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .submit-button:disabled {
+      opacity: 0.75;
+    }
+  }
 }
