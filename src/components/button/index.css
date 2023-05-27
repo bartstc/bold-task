@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  cursor: pointer;
+}
+
+.button-solid {
+  border-radius: 6px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  min-width: 160px;
+}
+
+.button-link {
+  padding: 0;
+}
+
+.button:disabled {
+  opacity: 0.75;
+}

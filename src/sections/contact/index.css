@@ -25,20 +25,5 @@
       grid-template-columns: 1fr 1fr;
       grid-gap: 30px;
     }
-
-    .submit-button {
-      background: #ed4c5c;
-      border: 1.5px solid #ed4c5c;
-      border-radius: 6px;
-      color: white;
-      padding: 16px 32px;
-      font-size: 1.4rem;
-      text-transform: uppercase;
-      cursor: pointer;
-    }
-
-    .submit-button:disabled {
-      opacity: 0.75;
-    }
   }
 }

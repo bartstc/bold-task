@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Input from "../../components/formInput";
+import Button from "../../components/button";
 
 import "./index.css";
 import { useSubmitForm } from "./useSubmitForm";
@@ -79,14 +80,9 @@ const ContactForm = () => {
         onChange={onChange}
       />
       <div>
-        <button
-          isLoading={isLoading}
-          disabled={isLoading}
-          className="submit-button"
-          type="submit"
-        >
-          {isLoading ? "Sending..." : "Submit now"}
-        </button>
+        <Button disabled={isLoading} isLoading={isLoading} type="submit">
+          Submit now
+        </Button>
       </div>
     </form>
   );
