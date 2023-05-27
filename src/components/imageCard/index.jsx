@@ -11,7 +11,9 @@ const ImageCard = ({ image, heading, text, link }) => {
       <div className="imageCard__content">
         <Heading level={3}>{heading}</Heading>
         <Text className="imageCard__text"> {text} </Text>
-        <Button variant="link">Read more</Button>
+        <Button variant="link" fontSize="1.2rem">
+          Read more
+        </Button>
       </div>
     </div>
   );

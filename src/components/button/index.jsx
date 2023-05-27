@@ -17,7 +17,7 @@ const Button = ({
   };
 
   const link = {
-    fontSize: fontSize ?? "1.2rem",
+    fontSize: fontSize ?? "1.4rem",
     background: fontSize ?? "transparent",
     color: color ?? "#ed4c5c",
   };
