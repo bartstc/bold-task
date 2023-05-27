@@ -45,7 +45,6 @@ const ContactForm = () => {
   return (
     <form className="grid" onSubmit={onSubmit}>
       <Input
-        id="first-name"
         name="firstName"
         placeholder="First Name"
         required
@@ -53,7 +52,6 @@ const ContactForm = () => {
         onChange={onChange}
       />
       <Input
-        id="last-name"
         name="lastName"
         placeholder="Last Name"
         required
@@ -61,7 +59,6 @@ const ContactForm = () => {
         onChange={onChange}
       />
       <Input
-        id="phone-number"
         name="phoneNumber"
         placeholder="Phone Number"
         type="tel"
@@ -71,7 +68,6 @@ const ContactForm = () => {
         onChange={onChange}
       />
       <Input
-        id="description"
         name="description"
         placeholder="What Service are you interested in?"
         style="full"
